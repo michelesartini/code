@@ -42,8 +42,9 @@ public class Main {
 		
 		try {
 			// get() Waits if necessary for the computation to complete, and then retrieves its result.
-			// you could also use this: executor.awaitTermination(1, TimeUnit.HOURS); in this case
-			// you know that the thread has completed its execution therefore get will be non blocking.
+			// you could also use this: executor.awaitTermination(1, TimeUnit.HOURS); 
+			// in this case you know that the thread has completed its execution 
+			// therefore get() will be non blocking.
 			System.out.println("Integer value: " + future.get());
 		} catch (ExecutionException e) {
 			e.printStackTrace();
