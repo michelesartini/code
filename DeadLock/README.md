@@ -1,4 +1,4 @@
 DeadLock
 =========
 
-This is a simple project that explains how to use the the tryLock() method of the Lock class to avoid deadlocks.
+This is a simple project that explains how to use the tryLock() method of the Lock class to avoid deadlocks.
